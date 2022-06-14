@@ -87,6 +87,8 @@ public class DBConnector {
 	   Statement stmt = this.connection.createStatement();
 	   rs = stmt.executeUpdate(query);
 	     
+	System.out.println("Record(s) updated successfully");
+
 	   return rs;
    }
 }
