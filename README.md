@@ -2,7 +2,7 @@
 
 ### This application is a sample implementation to demonstrate 2PL (without semaphores). Please check this to get a better understanding of the concept.
 
-## Why do we need it?
+## Why do we need 2PL?
 
 Two Phase Locking Protocol also known as 2PL protocol is a method of concurrency control in DBMS that ensures serializability by applying a lock to the transaction data which blocks other transactions to access the same data simultaneously. Two Phase Locking protocol helps to eliminate the concurrency problem in DBMS.
 
