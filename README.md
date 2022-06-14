@@ -13,6 +13,11 @@ A transaction is said to follow the Two-Phase Locking protocol if Locking and Un
 Growing Phase: New locks on data items may be acquired but none can be released.
 Shrinking Phase: Existing locks may be released but no new locks can be acquired.
 
+## Steps to run
+* Go to the root diarectory.
+* Run ```mvn clean install```
+* Go to target folder and run command ```java -jar assignment3.jar```
+
 ![Activity Diagram](/images/activity_diagram.jpg "This is a sample image.")
 
 ## Output
